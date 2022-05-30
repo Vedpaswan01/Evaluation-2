@@ -14,7 +14,7 @@
       #main{
         border: 1px solid red;
         width: 80% ;
-        height: auto;
+        height: 900px;
         margin: auto;
 
         
@@ -42,6 +42,60 @@
         font-weight: bold;
       }
 
+      #services{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        grid-template-rows: repeat(1,1fr);
+        
+        justify-content: space-evenly
+      }
+      #services>div{
+        
+        background-color: #aecfed;
+        width: 175px;
+        height: 250px;
+        margin: auto;
+        margin-bottom: 20px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        
+        }
+
+        #services>div>div{
+          height: 30%;
+          background-color: white;
+          padding-left: 20px;
+          padding-top: 10px;
+          
+        }
+   
+     
+      #services>div>img{
+        margin-left: 10%;
+        
+        width: 80%;
+        height: 70%;
+      }
+      h3{
+        font-size: 15px;
+      }
+      h3+h3{
+        color: gray;
+      }
+      #works{
+        margin: auto;
+        margin-top: 30px;
+        text-align: center;
+       
+      }
+
+      ##works>div{
+        display: grid;
+        grid-template-columns: repeat(4,1f);
+        grid-template-rows: repeat(2,1fr);
+        border: 1px solid red;
+      }
+
 
 
       /* Medium Screen */
@@ -66,12 +120,73 @@
       </div>
       <div id="services">
         <!-- Here should be 6 divs. All of them should be in a single line for large screen. For medium and large screen refer to question statement -->
+        <div><img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+            <div>
+              <div><h3>Instan Video Consultation</h3>
+                <h3>connet within 60 sec</h3>
+              </div>
+          </div>
+          
+        </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+            <div>
+              <div>
+                <h3>Instan Video Consultation</h3>
+                <h3>connet within 60 sec</h3>
+              </div>
+            </div>
+          </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+          <div>
+            <div>
+              <h3>Instan Video Consultation</h3>
+              <h3>connet within 60 sec</h3>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+          <div>
+            <div>
+              <h3>Instan Video Consultation</h3>
+            <h3>connet within 60 sec</h3>
+          </div>
+        </div>
+      </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+           <div>
+             <div>
+               <h3>Instan Video Consultation</h3>
+               <h3>connet within 60 sec</h3>
+              </div>
+            </div>
+          </div>
+        <div>
+          <img src="https://www.practostatic.com/consumer-home/desktop/images/1597423628/dweb_instant_video_consulation.png" alt="" class="">
+          <div>
+            <div>
+              <h3>Instan Video Consultation</h3>
+            <h3>connet within 60 sec</h3>
+          </div>
+        </div>
+      </div>
       </div>
       <div id="works">
         <h1>Book an appointment for an in-clinic consultation</h1>
         <p>Find experienced doctors across all specialties</p>
         <div>
           <!-- Here should be 8 divs. They should be in 4 colums and two rows for large screen.For medium and large screen refer to question statement -->
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </div>
     </div>
